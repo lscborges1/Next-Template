@@ -13,20 +13,10 @@ export const Wrapper = styled.main`
   justify-content: center;
 `
 export const LogosWrapper = styled.div`
-  margin-top: 3rem;
-  width: 100%;
+  margin-top: 1.5rem;
   background-color: #fff;
   border-radius: 16px;
-  padding: 1rem;
-
-  width: min(115rem, 100%);
-  overflow-y: auto;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
+  padding: 3rem;
 `
 
 export const Logo = styled.img`
@@ -38,6 +28,7 @@ export const Title = styled.h1`
 `
 
 export const Description = styled.h2`
+  margin-top: 1rem;
   font-size: 2rem;
   font-weight: 400;
 `

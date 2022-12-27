@@ -8,10 +8,7 @@ const Main = ({
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
     <S.LogosWrapper>
-      <S.Logo src="/img/ts-logo.svg" alt="React Logo" />
-      <S.Logo src="/img/react-logo.svg" alt="React Logo" />
       <S.Logo src="/img/next-logo.svg" alt="Next Logo" />
-      <S.Logo src="/img/styledcomponents-icon.png" alt="React Logo" />
     </S.LogosWrapper>
   </S.Wrapper>
 )

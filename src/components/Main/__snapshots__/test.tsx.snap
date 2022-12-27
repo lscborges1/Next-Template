@@ -26,29 +26,10 @@ exports[`<Main/> should render the heading 1`] = `
 }
 
 .c3 {
-  margin-top: 3rem;
-  width: 100%;
+  margin-top: 1.5rem;
   background-color: #fff;
   border-radius: 16px;
-  padding: 1rem;
-  width: min(115rem,100%);
-  overflow-y: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  gap: 3rem;
+  padding: 3rem;
 }
 
 .c4 {
@@ -60,6 +41,7 @@ exports[`<Main/> should render the heading 1`] = `
 }
 
 .c2 {
+  margin-top: 1rem;
   font-size: 2rem;
   font-weight: 400;
 }
@@ -81,24 +63,9 @@ exports[`<Main/> should render the heading 1`] = `
     class="c3"
   >
     <img
-      alt="React Logo"
-      class="c4"
-      src="/img/ts-logo.svg"
-    />
-    <img
-      alt="React Logo"
-      class="c4"
-      src="/img/react-logo.svg"
-    />
-    <img
       alt="Next Logo"
       class="c4"
       src="/img/next-logo.svg"
-    />
-    <img
-      alt="React Logo"
-      class="c4"
-      src="/img/styledcomponents-icon.png"
     />
   </div>
 </main>
